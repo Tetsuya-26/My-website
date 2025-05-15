@@ -3,46 +3,43 @@ import { assets } from '../assets/assets'
 
 const FeaturedCategory = () => {
   return (
-    <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-                <h1 className="text-3xl font-medium mb-6">
+    <section class="text-gray-800 body-font">
+    <div className="px-4 sm:px-6 lg:px-8">
+                <h1 className="md:text-5xl text-4xl font-bold mb-6 text-center">
                 Featured categories
                 </h1>
-        <div class="flex flex-wrap -m-4">
-        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a class="block relative h-48 rounded overflow-hidden">
-            <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={assets.dogFood}/>
-            </a>
-            <div class="mt-4">
-            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-            <h2 class="text-gray-900 title-font text-lg font-medium">Food</h2>
+        <div className="flex flex-wrap justify-between gap-6 lg:py-6 lg:px-6">
+        <div className="rounded-lg shadow-lg overflow-hidden">
+            <div className=" block relative h-48">
+            <img alt="ecommerce" className=" h-full w-48 object-cover" src={assets.dogFood}/>
+            </div>
+            <div className="mt-4">
+            <h2 className=" text-center text-gray-900 title-font text-lg font-medium">Food</h2>
             </div>
         </div>
-        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a class="block relative h-48 rounded overflow-hidden">
-            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={assets.toys}/>
-            </a>
-            <div class="mt-4">
-            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-            <h2 class="text-gray-900 title-font text-lg font-medium">Toys</h2>
+        <div className="rounded-lg shadow-lg overflow-hidden">
+            <div className=" block relative h-48">
+            <img alt="ecommerce" className=" h-full w-48 object-cover" src={assets.toys}/>
+            </div>
+            <div className="mt-4">
+            <h2 className="text-center text-gray-900 title-font text-lg font-medium">Toys</h2>
             </div>
         </div>
-        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a class="block relative h-48 rounded overflow-hidden">
-            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={assets.grooming}/>
-            </a>
-            <div class="mt-4">
-            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-            <h2 class="text-gray-900 title-font text-lg font-medium">Grooming</h2>
+        <div className="rounded-lg shadow-lg overflow-hidden">
+            <div className=" block relative h-48">
+            <img alt="ecommerce" className=" h-full w-48 object-cover" src={assets.grooming}/>
             </div>
+            <div className="mt-4">
+            <h2 className="text-center text-gray-900 title-font text-lg font-medium">Grooming</h2>
+            </div>
+            
         </div>
-        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a class="block relative h-48 rounded overflow-hidden">
-            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={assets.accessories}/>
-            </a>
-            <div class="mt-4">
-            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
-            <h2 class="text-gray-900 title-font text-lg font-medium">Accessories</h2>
+        <div className="rounded-lg shadow-lg overflow-hidden">
+            <div className=" block relative h-48">
+            <img alt="ecommerce" className=" h-full w-48 object-cover" src={assets.accessories}/>
+            </div>
+            <div className="mt-4">
+            <h2 className="text-center text-gray-900 title-font text-lg font-medium">Accessories</h2>
             </div>
         </div>
         </div>

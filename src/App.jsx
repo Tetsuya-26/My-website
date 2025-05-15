@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import FeaturedCategory from './components/FeaturedCategory'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
     <Navbar />
     <Home />
     <FeaturedCategory />
+    <Footer />
     </>
   )
 }
