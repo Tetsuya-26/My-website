@@ -9,37 +9,37 @@ const FeaturedCategory = () => {
                 Featured categories
                 </h1>
         <div className="flex flex-wrap justify-between gap-6 lg:py-6 lg:px-6">
-        <div className="rounded-lg shadow-lg overflow-hidden">
+        <div className="rounded-lg shadow-lg overflow-hidden py-6 px-6">
             <div className=" block relative h-48">
             <img alt="ecommerce" className=" h-full w-48 object-cover" src={assets.dogFood}/>
             </div>
             <div className="mt-4">
-            <h2 className=" text-center text-gray-900 title-font text-lg font-medium">Food</h2>
+            <button className=" cursor-pointer block w-full px-7 py-2.5 text-center bg-indigo-500 hover:bg-indigo-600 rounded-full text-white title-font text-lg font-medium">Food</button>
             </div>
         </div>
-        <div className="rounded-lg shadow-lg overflow-hidden">
+        <div className="rounded-lg shadow-lg overflow-hidden py-6 px-6">
             <div className=" block relative h-48">
             <img alt="ecommerce" className=" h-full w-48 object-cover" src={assets.toys}/>
             </div>
             <div className="mt-4">
-            <h2 className="text-center text-gray-900 title-font text-lg font-medium">Toys</h2>
+            <button className="cursor-pointer block w-full px-7 py-2.5 text-center bg-indigo-500 hover:bg-indigo-600 rounded-full text-white title-font text-lg font-medium">Toys</button>
             </div>
         </div>
-        <div className="rounded-lg shadow-lg overflow-hidden">
+        <div className="rounded-lg shadow-lg overflow-hidden py-6 px-6">
             <div className=" block relative h-48">
             <img alt="ecommerce" className=" h-full w-48 object-cover" src={assets.grooming}/>
             </div>
             <div className="mt-4">
-            <h2 className="text-center text-gray-900 title-font text-lg font-medium">Grooming</h2>
+            <button className="cursor-pointer block w-full px-7 py-2.5 text-center bg-indigo-500 hover:bg-indigo-600 rounded-full text-white title-font text-lg font-medium">Grooming</button>
             </div>
             
         </div>
-        <div className="rounded-lg shadow-lg overflow-hidden">
+        <div className="rounded-lg shadow-lg overflow-hidden py-6 px-6">
             <div className=" block relative h-48">
             <img alt="ecommerce" className=" h-full w-48 object-cover" src={assets.accessories}/>
             </div>
             <div className="mt-4">
-            <h2 className="text-center text-gray-900 title-font text-lg font-medium">Accessories</h2>
+            <button className="cursor-pointer block w-full px-7 py-2.5 text-center bg-indigo-500 hover:bg-indigo-600 rounded-full text-white title-font text-lg font-medium">Accessories</button>
             </div>
         </div>
         </div>
