@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import  { assets } from "../assets/assets"; // Assuming you have a Menuicon component
+import { NavLink } from "react-router";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,15 +15,15 @@ const Navbar = () => {
                 <input className="py-1.5 w-full bg-transparent outline-none placeholder-gray-500" type="text" placeholder="Search products" />
                <img src={assets.searchIcon} alt="Search"  />
         </div>
-        <div className=" flex cursor-pointer lg:w-1/6 lg:justify-end">
+        <div className=" flex cursor-pointer lg:w-1/6 justify-between gap-2 shrink-0">
                <img src={assets.cartIcon} alt="Cart"  />
         </div>
         {/* Desktop Menu */}
         <div className="hidden sm:flex items-center gap-8">
-            <a href="#">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/shop"><a href="#">Shop</a></NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contact"><a href="#">Contact</a></NavLink>
 
            
 
