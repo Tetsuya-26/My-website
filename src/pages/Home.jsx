@@ -4,7 +4,7 @@ import { assets } from "../assets/assets"; // Assuming you have a Menuicon compo
 
 const Home = () => {
     return (
-        <div class="flex flex-col sm:flex-row items-center justify-around text-sm  w-full px-14  bg-white">
+        <div class="flex flex-col sm:flex-row items-center justify-around text-sm  w-full px-14  bg-white overflow-hidden">
         
         <div class="flex flex-col text-center md:text-left items-center md:items-start pt-14 md:p-10">
             <h2 class="md:text-5xl text-4xl font-bold text-gray-800">Give Your Pets<br/>the Sparkle They Deserve!</h2>

@@ -8,7 +8,7 @@ const FeaturedCategory = () => {
                 <h1 className="md:text-5xl text-4xl font-bold mb-6 text-center">
                 Featured categories
                 </h1>
-        <div className="flex flex-wrap justify-between gap-6 lg:py-6 lg:px-6">
+        <div className="flex flex-wrap lg:justify-between gap-6 lg:py-6 lg:px-6 justify-center items-center">
         <div className="rounded-lg shadow-lg overflow-hidden py-6 px-6">
             <div className=" block relative h-48">
             <img alt="ecommerce" className=" h-full w-48 object-cover" src={assets.dogFood}/>
@@ -48,4 +48,4 @@ const FeaturedCategory = () => {
   )
 }
 
-export default FeaturedCategory
+export default FeaturedCategory;
