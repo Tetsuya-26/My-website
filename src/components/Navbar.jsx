@@ -21,13 +21,9 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden sm:flex items-center gap-8">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/shop"><a href="#">Shop</a></NavLink>
+            <NavLink to="/shop">Shop</NavLink>
             <NavLink to="/about">About</NavLink>
-            <NavLink to="/contact"><a href="#">Contact</a></NavLink>
-
-           
-
-           
+            <NavLink to="/contact">Contact</NavLink>
 
             <button className="cursor-pointer px-8 py-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full">
                 Login
@@ -48,10 +44,10 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div className={`${isOpen ? 'flex' : 'hidden'}  absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-center gap-4 px-5 text-sm md:hidden`}>
-            <a href="#" className="block">Home</a>
-            <a href="#" className="block">Shop</a>
-            <a href="#" className="block">About</a>
-            <a href="#" className="block">Contact</a>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/shop">Shop</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
            
             <button className="cursor-pointer px-6 py-2 mt-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full text-sm">
                 Login
