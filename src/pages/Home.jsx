@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeLayout from '../layouts/HomeLayout';
+import CalltoAction from '../components/CalltoAction';
 import FeaturedCategory from '../components/FeaturedCategory';
 
 
@@ -7,7 +7,7 @@ import FeaturedCategory from '../components/FeaturedCategory';
 const Home = () => {
     return (
    <div>
-      <HomeLayout />
+      <CalltoAction />
       <FeaturedCategory />  
    </div>
     
